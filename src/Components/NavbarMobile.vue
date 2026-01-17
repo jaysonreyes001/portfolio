@@ -1,7 +1,7 @@
 <template lang="">
      <div @click="closeSideBar" v-if="isMobileOpen" class="fixed h-full w-full top-0 left-0 bg-black/50 z-[99]">
      </div>
-     <aside :class="!isMobileOpen ? '-translate-x-full' : 'translate-x-0' " class="dark:bg-background-dark bg-background-light transition h-full w-full bg-white fixed left-0 top-0 right-0 bottom-0 w-64 z-[100]">
+     <aside :class="!isMobileOpen ? '-translate-x-full' : 'translate-x-0' " class="dark:bg-background-dark bg-background-light transition h-full bg-white fixed left-0 top-0 right-0 bottom-0 w-64 z-[100]">
           <div class="relative flex flex-col h-full max-h-full ">
                <!-- Header -->
                <header class=" p-4 flex justify-between items-center gap-x-2 mb-2">

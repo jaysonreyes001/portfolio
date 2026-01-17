@@ -10,7 +10,7 @@
                <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <v-icon @click="changeTheme" v-if="isDarkMode" icon="bx:sun" class="text-2xl hidden md:flex cursor-pointer"/>
                     <v-icon @click="changeTheme" v-else icon="bx:moon" class="text-2xl hidden md:flex cursor-pointer"/>
-                    <button @click="handleMobileSideBar" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+                    <button @click="handleMobileSideBar" type="button" class="text-xl inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden dark:hover:bg-primary-dark hover:bg-primary-light hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
                </button>
