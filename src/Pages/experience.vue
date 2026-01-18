@@ -12,7 +12,7 @@
                <ul class="space-y-10">
                     <li  v-for="(item,index) in experiences" class="flex gap-x-10 mb-10 md:mb-20 justify-between items-center w-full">
      
-                         <div v-scroll="{class:'opacity-0:opacity-1 -translate-x-20:translate-x-0'}" v-if="index % 2 == 0"  class="transition duration-500 ease-in-out card w-full md:w-1/2 text-left px-10 space-y-1">
+                         <div v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-x-0'}" v-if="index % 2 == 0"  class="transition duration-500 ease-in-out card w-full md:w-1/2 text-left px-10 space-y-1">
                               <p class="font-semibold text-2xl">{{item.position}}</p>
                               <p class="text-gray-500">{{item.company}}</p>
                               <p class="text-gray-500">{{item.year}}</p>
@@ -20,7 +20,7 @@
 
                          <div  class="w-1/2 hidden md:block"></div>
                          
-                         <div v-scroll="{class:'opacity-0:opacity-1 translate-x-20:translate-x-0'}" v-if="index % 2 === 1" class="transition duration-500 ease-in-out card w-full md:w-1/2 text-left px-10">
+                         <div v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-x-0'}" v-if="index % 2 === 1" class="transition duration-500 ease-in-out card w-full md:w-1/2 text-left px-10">
                               <p class="font-semibold text-2xl">{{item.position}}</p>
                               <p class="text-gray-500">{{item.company}}</p>
                               <p class="text-gray-500">{{item.year}}</p>
