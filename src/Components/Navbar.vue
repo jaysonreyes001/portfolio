@@ -33,9 +33,10 @@
 import { onMounted, ref } from 'vue'
 import NavbarMobile from './NavbarMobile.vue';
 import theme from '@/scripts/theme';
+import {scrollToSection} from '@/scripts/scrollToSection';
+
 const isDarkMode = ref( theme == 'light' ?  false : true);
 const isOpenSideBar = ref(false);
-
 
 const menu = [
      {
@@ -77,17 +78,6 @@ const handleScrolltoSection = (e) => {
                // scrollToSection(each,document.getElementById(each.id+'-nav'))
           }
      })
-}
-const scrollToSection = (section,e) => {
-     activeMenu.value = section;
-     const el = document.getElementById(section)
-     if(e.currentTarget){
-          const y = el.offsetTop - 100;
-               window.scrollTo({
-               top: y,
-               behavior: 'smooth'
-          })
-     }
 }
 
 const changeTheme = () => {

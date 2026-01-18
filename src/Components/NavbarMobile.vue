@@ -55,6 +55,7 @@
 </template>
 <script setup>
 import { onMounted, ref, watch } from 'vue';
+
 const props = defineProps(['menus','mobileSideBar']);
 const emits = defineEmits(['mobileSideBarStatus','changeThemeUpdate'])
 const isMobileOpen = ref(false);
@@ -79,7 +80,7 @@ const scrollToSection = (section,e) => {
      activeMenu.value = section;
      const el = document.getElementById(section)
      if(e.currentTarget){
-          const y = el.offsetTop - 100;
+          const y = el.offsetTop - 130;
                window.scrollTo({
                top: y,
                behavior: 'smooth'
