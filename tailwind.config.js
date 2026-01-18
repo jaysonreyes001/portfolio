@@ -78,6 +78,8 @@ export default {
       backgroundImage: {
         'radial-background': 'radial-gradient(circle at right top, rgba(238,102,17,0.1), transparent 80%)',
         'radial-background-light': 'radial-gradient(circle at right top, rgba(214, 40, 40, 0.1), transparent 70%)',
+        'text-background-dark' : 'linear-gradient(to right, white 5%, #ee6611 30%)',
+        'text-background-light' : 'linear-gradient(to right, black 5%, #d62828 30%)'
       },
       colors: {
         primary:{
