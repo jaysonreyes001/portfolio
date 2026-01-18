@@ -1,6 +1,6 @@
 <template lang="">
    <Layout>
-         <introduction/>
+         <introduction class="pb-32"/>
          <stack/>
          <experience/>
          <project/>
