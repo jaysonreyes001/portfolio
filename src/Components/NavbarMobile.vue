@@ -85,6 +85,7 @@ const scrollToSection = (section,e) => {
                behavior: 'smooth'
           })
      }
+     closeSideBar();
 }
 
 onMounted(()=>{

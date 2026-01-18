@@ -10,3 +10,10 @@ app.component('v-icon',Icon)
 app.directive('scroll',scroll);
 app.mount("#app");
 
+
+
+window.scroll({
+  top: 0,
+  left: 0,
+  behavior: 'smooth'
+});
