@@ -18,12 +18,12 @@
           @apply  max-w-md sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto;
      }
      .title{
-          @apply  text-3xl md:text-4xl font-extrabold flex mb-10 tracking-tighter
+          @apply  text-xl md:text-4xl font-extrabold flex mb-10 tracking-tighter
           dark:bg-text-background-dark
           bg-text-background-light
           bg-clip-text text-transparent
      }
      .title-icon{
-         @apply mr-2 mt-[-3px] dark:text-white text-black text-5xl
+         @apply mr-2 mt-[-5px] dark:text-white text-black text-5xl
      }
 }
