@@ -1,7 +1,7 @@
 <template lang="">
      <section id="contact" class="my-24 app-size">
           <h1 class="title">
-               <v-icon class="mr-4 mt-[-1px] text-5xl"  icon="material-symbols-light:stacks-rounded" />
+               <v-icon class="title-icon"  icon="material-symbols-light:stacks-rounded" />
                GET IN TOUCH
           </h1>
           <div class="mt-5">
