@@ -24,6 +24,6 @@
           bg-clip-text text-transparent
      }
      .title-icon{
-         @apply mr-4 dark:text-white text-black text-5xl
+         @apply mr-2 mt-[-2px] dark:text-white text-black text-5xl
      }
 }
