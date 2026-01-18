@@ -1,5 +1,5 @@
 <template lang="">
-     <section id="stack" class="my-24 app-size">
+     <section id="stack" class="my-24 app-size mt-[-150px] md:mt-[100px]">
           <h1 class="title">
                <v-icon class="title-icon"  icon="material-symbols-light:stacks-rounded" />
                STACK
