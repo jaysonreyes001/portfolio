@@ -20,8 +20,9 @@
      .title{
           @apply  text-3xl md:text-4xl font-extrabold flex mb-10 tracking-tighter
           bg-gradient-to-r from-purple-500 to-pink-500
+          from-5% to-20%
           dark:from-white dark:to-primary-dark
-          from-black dark:to-primary-light
+          from-black to-primary-light
           bg-clip-text text-transparent
      }
      .title-icon{
