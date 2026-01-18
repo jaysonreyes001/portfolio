@@ -1,6 +1,6 @@
 <template lang="">
      <Navbar/>
-     <main class="pt-0 md:pt-32 mt-[-100px] md:mt-0">
+     <main class="pt-0 md:pt-32 mt-[-50px] md:mt-0">
           <slot/>
      </main>
      <Footer/>
