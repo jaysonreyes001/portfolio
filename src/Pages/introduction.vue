@@ -31,7 +31,7 @@
 <script setup>
 
 const openCv = () => {
-    window.open('/public/JaysonReyes.pdf', '_blank');
+    window.open('/JaysonReyes.pdf', '_blank');
 }
 
 </script>
