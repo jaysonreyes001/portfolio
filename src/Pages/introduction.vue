@@ -1,5 +1,5 @@
 <template lang="">
-     <section id="home" class="min-h-screen flex flex-col justify-center app-size">
+     <section id="home" class="min-h-[100dvh] flex flex-col justify-center app-size">
           <div class="card">
                <div class="max-w-xl py-10 md:py-20 space-y-5">
                     <h1 class="text-3xl md:text-6xl font-extrabold">
