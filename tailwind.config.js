@@ -49,7 +49,7 @@ export default {
         appearleft: {
           from: {
             opacity: "0",
-            transform:"translateX(100px)"
+            transform:"translateX(50px)"
           },
           to: {
             opacity: "1",
@@ -59,7 +59,7 @@ export default {
         appearright: {
           from: {
             opacity: "0",
-            transform:"translateX(-100px)"
+            transform:"translateX(-50px)"
           },
           to: {
             opacity: "1",
