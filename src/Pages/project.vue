@@ -5,7 +5,7 @@
                PROJECTS
           </h1>
           <div class="mt-5">
-               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-20 gap-10">
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 gap-10">
                     <div  v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-y-0'}" v-for="(item,index) in projects" 
                     class="group card flex flex-col justify-between shadow transition duration-500 ease-in-out">
                     <div>
