@@ -41,7 +41,8 @@ export default {
     '-translate-x-50',
     "translate-x-full",
     'opacity-0',
-    'opacity-1'
+    'opacity-1',
+    'font-extrabold'
   ],
   theme: {
     extend: {
