@@ -2,7 +2,7 @@
      <section id="experience" class="my-24 app-size">
           <h1 class="title">
                <v-icon class="title-icon"  icon="material-symbols-light:stacks-rounded" />
-               WORK EXPERIENCE
+               EXPERIENCE
           </h1>
           <div class="mt-5">
                <div class="relative w-full mx-auto">
