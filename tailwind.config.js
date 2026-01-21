@@ -69,8 +69,8 @@ export default {
         },
        },
        animation: {
-          appearleft: "appearleft .5s ease-in-out",
-          appearright: "appearright .5s ease-in-out",
+          appearleft: "appearleft 1s ease-in-out",
+          appearright: "appearright 1s ease-in-out",
        },
       fontFamily: {
         // Adds 'font-space' class

@@ -5,13 +5,13 @@
                PROJECTS
           </h1>
           <div class="mt-5">
-               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 gap-10">
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20 gap-5">
                     <div  v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-y-0'}" v-for="(item,index) in projects" 
-                    class="group card flex flex-col justify-between shadow transition duration-500 ease-in-out">
+                    class="group hover:-translate-y-3 card p-5 flex flex-col justify-between shadow transition duration-1000 ease-in-out">
                     <div>
                          <div class="overflow-hidden rounded">
                               <a href="#">
-                                   <img  class="group-hover:scale-125 transition rounded" :src="item.image" alt="" />
+                                   <img  class="group-hover:scale-125 h-48 w-full transition duration-1000 rounded" :src="item.image" alt="" />
                               </a>
                          </div>
                          <a href="#">

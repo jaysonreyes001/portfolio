@@ -11,7 +11,7 @@
                          <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 mt-10 sm:mt-0">
                               <div v-scroll="{class:'opacity-0:opacity-1 translate-y-10:translate-y-0'}" 
                                    v-for="(sub_item,sub_index) in item.stack"
-                                   class="flex items-center transition duration-300 ease-in-out" >
+                                   class="flex items-center transition duration-1000 ease-in-out" >
                                    <v-icon class="mr-2 text-3xl lg:text-4xl mr-4" :icon="sub_item.icon"/>
                                    <span class="dark:text-secondary-dark font-semibold text-md">{{sub_item.title}}</span>
                               </div>

@@ -5,7 +5,7 @@
                GET IN TOUCH
           </h1>
           <div class="mt-5">
-              <div v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-y-0'}" class="transition duration-300 ease-in-out card">
+              <div v-scroll="{class:'opacity-0:opacity-1 translate-y-20:translate-y-0'}" class="transition duration-1000 ease-in-out card">
                     <div class="grid grid-cols-1 md:grid-cols-2 space-y-20 md:space-y-0">
                          <div>
                               <h1 class="text-xl font-bold">Contact Information</h1>

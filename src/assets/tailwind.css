@@ -7,13 +7,15 @@
 @layer components {
      
      body{
-          @apply dark:bg-background-dark bg-background-light dark:text-white text-black font-space px-5 transition-all
+          @apply dark:bg-background-dark bg-background-light dark:text-white text-black font-space transition-all
      }
      .card{
           @apply relative dark:bg-neutral-dark/80 bg-neutral-light backdrop-blur-md border dark:border-white/5 border-black/10 shadow-sm dark:shadow-white/10 shadow-black/10 rounded-xl p-10 transition
           before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full
           dark:before:bg-radial-background before:bg-radial-background-light before:pointer-events-none before:rounded-xl
+          shadow-primary-light/10 dark:shadow-primary-dark/10 shadow-md
      }
+     
      .app-size{
           @apply  max-w-md sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl mx-auto;
      }

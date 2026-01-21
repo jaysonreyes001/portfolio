@@ -4,7 +4,7 @@
          <stack/>
          <experience/>
          <project/>
-         <p class="text-center dark:text-secondary-dark text-gray-600 italic text-xl md:text-3xl">"Coffee first, then the code."</p>
+         <p class="text-center dark:text-secondary-dark text-gray-600 italic text-xl md:text-3xl">"Code then Coffee"</p>
          <Contact/>
    </Layout>
 </template>

@@ -11,9 +11,13 @@ app.directive('scroll',scroll);
 app.mount("#app");
 
 
-
-window.scroll({
+setTimeout(()=>{
+  window.scroll({
   top: 0,
   left: 0,
   behavior: 'smooth'
 });
+},100)
+
+
+
