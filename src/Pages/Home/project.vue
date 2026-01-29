@@ -21,10 +21,10 @@
                     </div>
                     
                     <div class="flex justify-end">
-                         <a href="#" class="transition rounded shadow-lg dark:shadow-primary-dark/50 shadow-primary-light/50 inline-flex items-center text-body dark:bg-primary-dark bg-primary-light text-white dark:hover:bg-primary-dark/70 hover:bg-primary-light/70 hover:shadow-md hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none">
+                         <router-link :to="{name:'Project'}" class="transition rounded shadow-lg dark:shadow-primary-dark/50 shadow-primary-light/50 inline-flex items-center text-body dark:bg-primary-dark bg-primary-light text-white dark:hover:bg-primary-dark/70 hover:bg-primary-light/70 hover:shadow-md hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none">
                          View more
                          <svg class="w-4 h-4 ms-1.5 rtl:rotate-180 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/></svg>
-                         </a>
+                         </router-link>
                     </div>
                </div>
                </div>

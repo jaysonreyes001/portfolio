@@ -4,9 +4,9 @@
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                     <img v-if="isDarkMode" class="md:hidden rounded-full w-12" src="https://ui-avatars.com/api/?name=Jayson+Reyes&rounded=true&color=ffffff&background=ee6611"/>
                     <img v-else class="md:hidden rounded-full w-12" src="https://ui-avatars.com/api/?name=Jayson+Reyes&rounded=true&color=ffffff&background=d62828"/>
-                    <a href="https://flowbite.com/" class="hidden md:block flex items-center space-x-3 rtl:space-x-reverse">
+                    <router-link :to="{name:'Home'}" class="hidden md:block flex items-center space-x-3 rtl:space-x-reverse">
                          <span class="self-center text-2xl text-heading font-semibold whitespace-nowrap"><span class="dark:text-primary-dark text-primary-light">Jayson's</span> Portfolio.</span>
-                    </a>
+                    </router-link>
                <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <div class="hover:bg-gray-200 dark:hover:bg-gray-800 transition rounded p-2">
                          <v-icon @click="changeTheme" v-if="isDarkMode" icon="bx:sun" class="text-2xl hidden md:flex cursor-pointer"/>
@@ -30,7 +30,6 @@
           </div>
      </nav>
      <NavbarMobile @changeThemeUpdate="changeTheme" @mobileSideBarStatus="handleMobileSideBar" :menus="menu" :mobileSideBar="isOpenSideBar"/>
-
 </template>
 <script setup>
 import { onMounted, ref } from 'vue'
