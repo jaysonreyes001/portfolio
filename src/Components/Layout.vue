@@ -16,7 +16,7 @@
 
 
 <div v-if="chatwithme" class="fixed bottom-14 right-5 z-50 w-full max-w-[350px]">  
-  <div class="flex flex-col h-[500px] bg-white shadow-2xl rounded-2xl overflow-hidden">
+  <div class="flex flex-col h-[500px] shadow-2xl rounded-lg overflow-hidden">
     
     <div class="dark:bg-primary-dark bg-primary-light p-4 flex items-center justify-between">
       <div class="flex items-center">
@@ -53,8 +53,8 @@
 
     </div>
 
-    <div class="p-4 bg-white dark:bg-slate-800 border-t border-gray-100 dark:border-slate-900 ">
-      <div class="flex items-center bg-gray-100 dark:bg-slate-900 rounded-full px-4 py-2">
+    <div class="p-3 bg-white dark:bg-slate-800 border-t border-gray-100 dark:border-slate-900 ">
+      <div class="flex items-center bg-gray-100 dark:bg-slate-900 rounded-md px-4 py-1">
         <input 
           v-model="message_content"
           type="text" 
@@ -62,9 +62,7 @@
           class="flex-1 bg-transparent border-none focus:ring-0 text-sm outline-none"
         >
         <button @click.prevent="submitchatwithme" class="bg-indigo-600 hover:bg-indigo-700 text-white p-2 rounded-full transition-colors">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-        </svg>
+        <v-icon icon="tabler:send"/>
       </button>
       </div>
     </div>
