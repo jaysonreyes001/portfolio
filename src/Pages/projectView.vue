@@ -76,7 +76,6 @@
 import Layout from '@/Components/Layout.vue';
 import { computed, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router'
-import image from "@/assets/sdn.png";
 import { projects } from '@/data/project';
 const router = useRouter()
 const project_name = ref(router.currentRoute.value.params.project || "");

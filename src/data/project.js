@@ -1,7 +1,3 @@
-import ims from "@/assets/ims/ims.png";
-import anime from "@/assets/anime.png";
-import sdn from "@/assets/sdn.png";
-
 export const projects = [
      {
           name:"Incident Management System",
