@@ -57,11 +57,11 @@
                          <!-- <img class="md:h-3/4 w-1/2 w-full rounded-xl border border-primary-light/30" :src="project_details.image"/> -->
                           <div class="grid gap-4">
                               <div>
-                                   <img class="h-[400px] max-w-full rounded-lg" :src="`/${currentImage}`" alt="">
+                                   <img class="h-[300px] md:h-[400px] w-full rounded-lg" :src="`/${currentImage}`" alt="">
                               </div>
                               <div class="grid grid-cols-5 gap-4">
                                    <div v-for="(item,index) in project_details.image" :key="index">
-                                        <img @mouseenter="selectImage(item)" class="cursor-pointer h-[80px] w-full max-w-full rounded-md" :src="`/${item}`" alt="">
+                                        <img @mouseenter="selectImage(item)" class="cursor-pointer h-[60px] md:h-[80px] w-full max-w-full rounded-md" :src="`/${item}`" alt="">
                                    </div>
                               </div>
                               </div>
