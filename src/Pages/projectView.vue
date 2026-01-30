@@ -57,7 +57,7 @@
                          <!-- <img class="md:h-3/4 w-1/2 w-full rounded-xl border border-primary-light/30" :src="project_details.image"/> -->
                           <div class="grid gap-4">
                               <div>
-                                   <img class="h-[300px] md:h-[400px] w-full rounded-lg" :src="`/${currentImage}`" alt="">
+                                   <img class="h-[250px] md:h-[400px] w-full rounded-lg" :src="`/${currentImage}`" alt="">
                               </div>
                               <div class="grid grid-cols-4 md:grid-cols-5 gap-4">
                                    <div v-for="(item,index) in project_details.image" :key="index">
