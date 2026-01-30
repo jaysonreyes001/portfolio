@@ -9,12 +9,12 @@ const routes = [
     component: Layout,
     children: [
       { 
-        path: '',
+        path: '/',
         name: 'Home', 
         component: Home
       },
       { 
-        path: 'project',
+        path: 'project/:project',
         name: 'Project', 
         component: projectView
       },
@@ -25,7 +25,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior() {
+  scrollBehavior(to) {
      return { top: 0, left: 0 }
    }
 })

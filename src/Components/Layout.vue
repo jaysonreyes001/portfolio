@@ -16,7 +16,6 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 const scrollY = ref(0);
 const handleScroll = (event) => {
-     console.log(window.scrollY)
      scrollY.value = window.scrollY;
 };
 
