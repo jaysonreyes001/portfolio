@@ -29,14 +29,14 @@
           <div class="card">
                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div>
-                         <h1 class="title text-5xl">{{project_details.name}}</h1>
-                         <p>
+                         <h1 class="title md:text-5xl text-2xl">{{project_details.name}}</h1>
+                         <p class="text-sm md:text-lg">
                               {{project_details.description}}
                          </p>
                          
                          <div class="mt-10">
-                              <h1 class="text-2xl font-bold">Key Features</h1>
-                              <ul class="mt-2 space-y-1 text-body list-disc list-inside">
+                              <h1 class="md:text-2xl text-xl font-bold">Key Features</h1>
+                              <ul class="text-sm md:text-lg mt-2 space-y-1 text-body list-disc list-inside">
                                    <li v-for="(item,index) in project_details.features" :key="index">
                                         {{item}}
                                    </li>
@@ -44,7 +44,7 @@
                          </div>
 
                          <div class="mt-10">
-                              <h1 class="text-2xl font-bold">Technologies Used</h1>
+                              <h1 class="md:text-2xl text-xl font-bold">Technologies Used</h1>
                               <div class="inline-flex flex-wrap gap-4 mt-3">
                                    <div v-for="(item,index) in project_details.stack" :key="index">
                                         <a href="#" class="dark:bg-primary-dark/10 bg-primary-light/1 border dark:border-primary-dark/50 border-primary-light/40 text-xs font-medium px-3 py-2 rounded">{{item}}</a>
