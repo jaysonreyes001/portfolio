@@ -59,7 +59,7 @@
                               <div>
                                    <img class="h-[300px] md:h-[400px] w-full rounded-lg" :src="`/${currentImage}`" alt="">
                               </div>
-                              <div class="grid grid-cols-5 gap-4">
+                              <div class="grid grid-cols-4 md:grid-cols-5 gap-4">
                                    <div v-for="(item,index) in project_details.image" :key="index">
                                         <img @mouseenter="selectImage(item)" class="cursor-pointer h-[60px] md:h-[80px] w-full max-w-full rounded-md" :src="`/${item}`" alt="">
                                    </div>
