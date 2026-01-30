@@ -5,17 +5,17 @@
      </main>
      <Footer/>
      <a v-if="scrollY > 500" href="javascript:void(0)" @click="scrollToTop" 
-          class="p-1 shadow-lg dark:shadow-primary-dark/50 shadow-primary/50 transition dark:hover:bg-primary-dark/50 hover:bg-primary-light/50 fixed right-[20px] bottom-[55px] dark:bg-primary-dark bg-primary-light text-white rounded">
+          class="p-1 shadow-lg dark:shadow-primary-dark/50 shadow-primary/50 transition dark:hover:bg-primary-dark/50 hover:bg-primary-light/50 fixed right-[22px] bottom-[70px] dark:bg-primary-dark bg-primary-light text-white rounded">
           <v-icon class="text-4xl" icon="material-symbols:keyboard-arrow-up"/>
      </a>
      <button @click="chatwithme = !chatwithme" 
-          class="p-2 px-5 text-sm shadow-lg dark:shadow-primary-dark/50 shadow-primary/50 transition dark:hover:bg-primary-dark/50 hover:bg-primary-light/50 fixed right-[20px] bottom-[10px] dark:bg-primary-dark bg-primary-light text-white rounded">
-          Chat with Me
+          class="p-2  text-sm shadow-lg dark:shadow-primary-dark/50 shadow-primary/50 transition dark:hover:bg-primary-dark/50 hover:bg-primary-light/50 fixed right-[20px] bottom-[10px] dark:bg-primary-dark bg-primary-light text-white rounded">
+          <v-icon class="text-3xl" icon="mingcute:message-2-fill"/>
      </button>
 
 
 
-<div v-if="chatwithme" class="fixed bottom-14 right-5 z-50 w-full max-w-[350px]">  
+<div v-if="chatwithme" class="fixed bottom-16 right-5 z-50 w-full max-w-[350px]">  
   <div class="flex flex-col h-[500px] shadow-2xl rounded-lg overflow-hidden">
     
     <div class="dark:bg-primary-dark bg-primary-light p-4 flex items-center justify-between">
