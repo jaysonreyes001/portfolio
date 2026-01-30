@@ -69,4 +69,24 @@ export const projects = [
                'Api Based'
           ],
      },
+     {
+          name:"Election Monitoring",
+          description:"Election monitoring is the systematic observation and evaluation of the electoral process before, during, and after elections to ensure that they are conducted in a free, fair, transparent, and credible manner, helping prevent fraud, detect irregularities, protect voters’ rights, and strengthen public trust in democratic institutions.",
+          image:[
+               'election/login.png',
+               'election/dashboard-management.png',
+               'election/module-management.png',
+               'election/field-management.png',
+               'election/user-management.png',
+               'election/report-management.png'
+          ],
+          stack:['Laravel','Laravel Blade','JQuery'],
+          features:[
+               'Module Management',
+               'Field Management',
+               'Report Management',
+               'User Management',
+               'Dashboard Management'
+          ],
+     },
 ];
