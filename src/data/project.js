@@ -80,13 +80,34 @@ export const projects = [
                'election/user-management.png',
                'election/report-management.png'
           ],
-          stack:['Laravel','Laravel Blade','JQuery'],
+          stack:['Laravel','Laravel Blade','JQuery','Bootstrap'],
           features:[
                'Module Management',
                'Field Management',
                'Report Management',
                'User Management',
                'Dashboard Management'
+          ],
+     },
+     {
+          name:"House Management System",
+          description:"A House Management System (HMS) is a digital platform designed to efficiently manage residential properties, households, or housing facilities. It centralizes daily operations, records, and monitoring tasks to improve organization, transparency, and decision-making. The system enables administrators, homeowners, or property managers to manage house details, occupants, utilities, maintenance requests, payments, and security records in one place. It reduces paperwork, minimizes errors, and ensures timely handling of household activities.",
+          image:[
+               'hms/login.png',
+               'hms/dashboard.png',
+               'hms/announcement.png',
+               'hms/report.png',
+          ],
+          stack:['Laravel','Laravel Blade','JQuery','PayMongo','Bootstrap'],
+          features:[
+               'Email Notification',
+               'Monitor Payment Due',
+               'Transfer Ownership',
+               'Background Services for Montly Due',
+               'Generate Report via Pdf and Excel',
+               'User Management',
+               'Email Templated',
+               'Payment Gateway Intergration'
           ],
      },
 ];
