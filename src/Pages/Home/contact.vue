@@ -43,7 +43,7 @@
                          </div>
                          <div>
                               <h1 class="text-xl font-bold">Let's Work Together</h1>
-                              <form action="#" class="space-y-8 mt-10">
+                              <form @submit.prevent="formsubmit" action="#" class="space-y-8 mt-10">
                                    <div>
                                         <label for="name" class="block mb-2 text-sm text-gray-900 dark:text-gray-300">Your name</label>
                                         <input type="text" class="w-full p-3 block rounded dark:bg-background-dark bg-white border dark:border-white/10 border-black/20 focus:outline-black/50 " placeholder="What's your name?" required>
@@ -73,10 +73,12 @@
      </section>
 </template>
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import ims from "@/assets/ims.png";
 import anime from "@/assets/anime.png";
 import sdn from "@/assets/sdn.png";
+
+const loading = ref(false);
 const projects = [
      {
           name:"Incident Management System",
@@ -94,6 +96,7 @@ const projects = [
           image:anime
      },
 ];
+
 </script>
 <style scoped>
      
