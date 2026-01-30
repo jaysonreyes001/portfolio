@@ -26,6 +26,7 @@
           </div>
 
           <br>
+          
           <div class="card">
                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div>
@@ -53,7 +54,17 @@
                          </div>
                     </div>
                     <div class="md:order-last order-first">
-                         <img class="md:h-3/4 w-1/2 w-full rounded-xl border border-primary-light/30" :src="project_details.image"/>
+                         <!-- <img class="md:h-3/4 w-1/2 w-full rounded-xl border border-primary-light/30" :src="project_details.image"/> -->
+                          <div class="grid gap-4">
+                              <div>
+                                   <img class="h-[400px] max-w-full rounded-lg" :src="`/src/assets/${currentImage}`" alt="">
+                              </div>
+                              <div class="grid grid-cols-5 gap-4">
+                                   <div v-for="(item,index) in project_details.image" :key="index">
+                                        <img @mouseenter="selectImage(item)" class="cursor-pointer h-[80px] w-full max-w-full rounded-md" :src="`/src/assets/${item}`" alt="">
+                                   </div>
+                              </div>
+                              </div>
                     </div>
                </div>
           </div>
@@ -63,7 +74,7 @@
 </template>
 <script setup>
 import Layout from '@/Components/Layout.vue';
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router'
 import image from "@/assets/sdn.png";
 import { projects } from '@/data/project';
@@ -72,6 +83,12 @@ const project_name = ref(router.currentRoute.value.params.project || "");
 const project_details = computed(()=>{
      return projects.find(item => item.name == project_name.value);
 })
+
+const currentImage = ref(project_details.value.image[0] || "");
+console.log(currentImage.value)
+const selectImage = (img) => {
+     currentImage.value = img;
+}
 </script>
 <style lang="">
      

@@ -1,4 +1,4 @@
-import ims from "@/assets/ims.png";
+import ims from "@/assets/ims/ims.png";
 import anime from "@/assets/anime.png";
 import sdn from "@/assets/sdn.png";
 
@@ -6,7 +6,16 @@ export const projects = [
      {
           name:"Incident Management System",
           description:"An Incident Management System (IMS) is a tool that helps organizations efficiently track, manage, and resolve incidents or issues. It ensures quick response, minimizes downtime, improves communication, and maintains a record of incidents for analysis and prevention of future occurrences.",
-          image:ims,
+          image:[
+               'ims/login.png',
+               'ims/ims.png',
+               'ims/incident-list.png',
+               'ims/incident-create.png',
+               'ims/incident-map.png',
+               'ims/user-management.png',
+               'ims/api-configuration.png',
+               'ims/create-report-list.png'
+          ],
           stack:['Vue.js','Tailwind CSS','Laravel','Docker','DDEV'],
           features:[
                'Real-time dashboards and wallboard',

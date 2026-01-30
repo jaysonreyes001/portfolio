@@ -74,28 +74,7 @@
 </template>
 <script setup>
 import { onMounted, ref } from 'vue';
-import ims from "@/assets/ims.png";
-import anime from "@/assets/anime.png";
-import sdn from "@/assets/sdn.png";
-
-const loading = ref(false);
-const projects = [
-     {
-          name:"Incident Management System",
-          description:"An Incident Management System (IMS) is a tool that helps organizations efficiently track, manage, and resolve incidents or issues. It ensures quick response, minimizes downtime, improves communication, and maintains a record of incidents for analysis and prevention of future occurrences.",
-          image:ims
-     },
-     {
-          name:"Province Health Office (Surigao Del Norte)",
-          description:"The Provincial Health Office of Surigao del Norte is committed to protecting and promoting the health and well-being of communities across the province. Through efficient public health programs, disease prevention initiatives, health education, and accessible medical services, the office works closely with local government units, health facilities, and partner organizations to deliver quality healthcare for all Surigaonons.",
-          image:sdn
-     },
-     {
-          name:"Otakuhub Stream",
-          description:"An anime streaming platform is a service that allows users to watch anime online, offering a wide range of series and movies on-demand. It provides features like subtitles, dubbed versions, and personalized recommendations for anime fans.",
-          image:anime
-     },
-];
+import { projects } from '@/data/project';
 
 </script>
 <style scoped>
