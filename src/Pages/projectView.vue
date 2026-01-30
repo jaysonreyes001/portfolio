@@ -53,7 +53,7 @@
                               </div>
                          </div>
                     </div>
-                    <div class="md:order-last order-first">
+                    <div >
                          <!-- <img class="md:h-3/4 w-1/2 w-full rounded-xl border border-primary-light/30" :src="project_details.image"/> -->
                           <div class="grid gap-4">
                               <div>
