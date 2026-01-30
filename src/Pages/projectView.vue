@@ -25,7 +25,7 @@
                </nav>
           </div>
 
-          <br><br>
+          <br>
           <div class="card">
                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div>
