@@ -33,7 +33,15 @@ export const projects = [
      {
           name:"Province Health Office (Surigao Del Norte)",
           description:"The Provincial Health Office of Surigao del Norte is committed to protecting and promoting the health and well-being of communities across the province. Through efficient public health programs, disease prevention initiatives, health education, and accessible medical services, the office works closely with local government units, health facilities, and partner organizations to deliver quality healthcare for all Surigaonons.",
-          image:sdn,
+          image:[
+               'sdn/login.png',
+               'sdn/dashboard.png',
+               'sdn/user-management.png',
+               'sdn/import.png',
+               'sdn/report.png',
+               'sdn/activity-log.png',
+               'sdn/login-history.png'
+          ],
           stack:['Vue.js','Express.js','Tailwind CSS','Laravel','Clickhouse','Grafana','Puppeteer'],
           features:[
                'Intergration of grafana dashboard to portal',
@@ -49,7 +57,14 @@ export const projects = [
      {
           name:"Otakuhub Stream",
           description:"An anime streaming platform is a service that allows users to watch anime online, offering a wide range of series and movies on-demand. It provides features like subtitles, dubbed versions, and personalized recommendations for anime fans.",
-          image:anime,
+          image:[
+               'anime/home.png',
+               'anime/top-airing.png',
+               'anime/latest-episode.png',
+               'anime/info.png',
+               'anime/stream.png',
+               'anime/search.png'
+          ],
           stack:['Vue.js','Tailwind CSS','Express.js'],
           features:[
                'Updated anime and episode',

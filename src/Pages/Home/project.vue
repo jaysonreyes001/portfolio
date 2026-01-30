@@ -11,7 +11,7 @@
                     <div>
                          <div class="overflow-hidden rounded">
                               <a href="#">
-                                   <img  class="group-hover:scale-125 h-48 w-full transition duration-1000 rounded" :src="item.image" alt="" />
+                                   <img  class="group-hover:scale-125 h-48 w-full transition duration-1000 rounded" :src="item.image[0]" alt="" />
                               </a>
                          </div>
                          <a href="#">
