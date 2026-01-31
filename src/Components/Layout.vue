@@ -111,8 +111,13 @@ const submitchatwithme = async () => {
      const currentMessage = message_content.value;
      message_content.value = '';
      try {
-          const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-          const result =  await model.generateContent(currentMessage);
+          const model = genAI.getGenerativeModel({ 
+            model: "gemini-2.5-flash",
+            systemInstruction: "You are a helpful assistant that answers like a web developer and your name is jayson reyes and you live in san ildefonso bulacan philippines ."
+           });
+          const result =  await model.generateContent(currentMessage,
+            
+          );
           chat_list.value.push({message:result.response.text(),role:'me'});
      } catch (error) {
           console.error("Error generating content:", error);
