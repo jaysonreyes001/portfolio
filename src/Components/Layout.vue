@@ -76,7 +76,7 @@ import Footer from './Footer.vue';
 import { onBeforeUnmount, onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const genAI = new GoogleGenerativeAI('AIzaSyAZFadNaelEbSQElXp1ynykC7FxrTeFn5U');
+const genAI = new GoogleGenerativeAI('AIzaSyDCeydteiNJ1il9htrq5Xk5gTSRwVEcNoc');
 const message_content = ref('');
 const loading = ref(false);
 const chat_list = ref([
